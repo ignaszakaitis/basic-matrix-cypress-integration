@@ -1,0 +1,15 @@
+{
+    "name": "helpers-sdk",
+    "version": "1.0.0",
+    "description": "Matrix-Cypress Boilerplate code generator written in matrix sdk",
+    "main": "helpers.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ignas Žakaitis",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.8",
+        "matrix-requirements-sdk": "^2.4.2-alpha.5"
+    }
+}
