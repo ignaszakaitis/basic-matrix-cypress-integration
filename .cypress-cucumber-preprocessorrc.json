@@ -1,0 +1,12 @@
+{
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": [
+        "cypress/e2e/[filepath]/**/*.{js,ts}",
+        "cypress/e2e/[filepath].{js,ts}",
+        "cypress/e2e/cucumber-tests/common-steps/*.{js,ts}",
+        "cypress/support/step_definitions/.{js,ts}"
+    ],
+    "html": {
+        "enabled": true
+    }
+}
