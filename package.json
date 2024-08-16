@@ -1,11 +1,8 @@
 {
     "name": "matrix-ui-testing",
-    "repository": {
-        "url": "https://github.com/MatrixRequirements/matrix-automated-ui-testing"
-    },
     "version": "1.0.0",
-    "description": "Cypress tooling for Matrix automated UI testing",
-    "author": "francois",
+    "description": "Basic cypress integration for Matrix Requirements",
+    "author": "ignas",
     "license": "ISC",
     "dependencies": {
         "@badeball/cypress-cucumber-preprocessor": "^20.0.3",
