@@ -1,6 +1,7 @@
 # Config files
 local-settings.json
 local-settings-*
+credentials.json
 
 # IDE
 .idea
@@ -121,4 +122,3 @@ cypress.json
 cypress.config.js
 .vscode
 e2e.js
-commands.js
