@@ -12,3 +12,7 @@ This covers basic Cypress and MatrixALM integration for verification testing. Fo
     -   Specify token for matrixspecs in `env/mxSpecToken`
     -   Specify token for testing instance in `env/cypressInstanceToken`
     -   You can overwrite other settings as well
+
+# Test Scripts
+
+-   Generate your test scripts using the Test Case Code Generator located in `helpers/sdk-tools`
