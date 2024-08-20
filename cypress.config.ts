@@ -5,8 +5,8 @@ export default defineConfig({
     trashAssetsBeforeRuns: true,
     experimentalStudio: true,
     env: {
-        mxSpecsURL: "https://ignas-cypress.matrixreq.com//rest/1",
-        mxSpecProject: "DEMO_CALCULATOR",
+        // mxSpecsURL: "https://instance.matrixreq.com//rest/1",
+        // mxSpecProject: "DEMO_CALCULATOR",
     },
     e2e: {
         specPattern: "**/*.{cy.ts,feature}",
@@ -14,12 +14,11 @@ export default defineConfig({
             on: Cypress.PluginEvents,
             config: Cypress.PluginConfigOptions
         ): Promise<Cypress.PluginConfigOptions> {
-
             require("./cypress/plugins/index.js")(on, config);
 
             return config;
         },
-        baseUrl: "https://ignas-calc-app.cloud/",
+        // baseUrl: "https://ignas-calc-app.cloud/",
         supportFile: "cypress/support/index.d.ts",
     },
 });
