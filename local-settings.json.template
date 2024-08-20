@@ -1,10 +1,6 @@
 {
     "env": {
-        "mxSpecToken": "<API Token for matrixspecs.matrixreq.com>",
-        "cypressInstanceToken": "<API Token for the instance being tested>",
-        "testingPassword": "<testing user password>",
-        "testing2Password": "<testing2 user password>",
-        "nonadminPassword": "<tnonadmin user password>"
+        "mxSpecToken": "<API Token for <instance key>.matrixreq.com>",
     },
     "e2e": {}
 }

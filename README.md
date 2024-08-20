@@ -8,10 +8,14 @@ This covers basic Cypress and MatrixALM integration for verification testing. Fo
 -   Install the required package using npm install
 -   Create a `local-settings.json` to overwrite defaults (you can make a copy of `local-settings.json.template`)
 -   Open `local-settings.json`
-    -   Specify the URL of the instance to test in `e2e/baseUrl`
-    -   Specify token for matrixspecs in `env/mxSpecToken`
-    -   Specify token for testing instance in `env/cypressInstanceToken`
+
+    -   Specify your instance as parameter `mxSpecToken`
     -   You can overwrite other settings as well
+
+-   Open `cypress.config.ts`
+    -   Replace `mxSpecsURL` parameter value with the value of your instance
+    -   Replace `mxSpecProject` parameter value with the value of your project
+    -   Replace `baseUrl` parameter value with your tested application url
 
 # Test Scripts
 
